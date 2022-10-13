@@ -123,6 +123,29 @@ p:last-child{
   align-items: center;
 }
 
+/* @dev2 css here */
+.header-absolute{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 14;
+}
+
+.header-whiteText .main-menu > ul > li > a {
+	color: #FAF5EE;
+}
+
+.header-whiteText .header-search-button {
+	display: flex;
+	font-size: 16px;
+	color: #FAF5EE;
+}
+
+/* @dev2 css here--end */
+
+
 .header-logo {
   width: 206px;
   display: block;
@@ -474,6 +497,45 @@ p:last-child{
   background: transparent;
   color: #fff;
 }
+
+/* @dev2 css here */
+.hero-c-section.hero-whiteText {
+	padding-top: 85px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-whiteText .hero-b-content-main .tp-h5{
+  border-color: #FAF5EE;
+  color: #FAF5EE;
+}
+.hero-whiteText .hero-b-content-main .h1{
+  color: #FAF5EE;
+}
+.hero-whiteText .hero-b-content-main .hb-ui-ut h4 {
+	color: #FAF5EE;
+}
+.hero-whiteText .hb-text-content{
+  border-color: #FAF5EE !important;
+}
+.hero-whiteText .hb-text-content p{
+  color: #FAF5EE;
+}
+.hero-whiteText .share-menu .h-ttl{
+  color: #FAF5EE;
+}
+
+
+
+.hero-c-section .share-menu ul li a{
+  color: #FAF5EE;
+}
+
+
+
+/* @dev2 css here----end */
+
 
 /* ---hero-section---end */
 
