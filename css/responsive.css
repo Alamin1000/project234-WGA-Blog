@@ -491,6 +491,12 @@
         border: none;
         border-bottom: 1px solid #000;
     }
+
+    .header-whiteText .header-search-button {
+        color: #070707;
+    }
+
+
 }
 
 
