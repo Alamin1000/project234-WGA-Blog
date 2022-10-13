@@ -477,6 +477,20 @@
     .blg-in-img-crd .cont-xy .hori-name {
         font-size: 12px;
     }
+
+
+    .header-ss-search-wrapper {
+        width: 100%;
+        padding: 0 0 4px;
+    }
+    .header-ss-search .input-outer .input {
+        padding: 4px 50px;
+        height: 35px;
+        font-size: 14px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #000;
+    }
 }
 
 

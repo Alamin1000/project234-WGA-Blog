@@ -243,6 +243,43 @@ p:last-child{
 .header-search-bss-result-single:nth-child(odd) {
   background: #343333;
 }
+
+
+.header-ss-search-wrapper {
+  width: 70%;
+}
+.header-ss-search {
+
+}
+.header-ss-search .input-outer {
+  position: relative;
+  width: 100%;
+}
+.header-ss-search .input-outer .sr-i {
+  position: absolute;
+  top: 50%;
+  left: 26px;
+  font-size: 20px;
+  transform: translate(-50%,-50%);
+}
+.header-ss-search .input-outer .input {
+  padding: 4px 60px;
+  height: 48px;
+  font-size: 16px;
+  background: transparent;
+  border: 1px solid #000;
+  line-height: 1.3;
+  font-weight: 400;
+  width: 100%;
+}
+.header-ss-search .input-outer .close-btn {
+  font-size: 23px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(-50%,-50%);
+  color: #9D9D9D;
+}
 /* ---header-search-modal---end */
 
 
