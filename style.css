@@ -1250,13 +1250,12 @@ p:last-child{
   z-index: 1;
 }
 .hero-b-paper-cut-row-background {
+  /* mask-image: url('images/paper-cut-hero.png');
   -webkit-mask-image: url('images/paper-cut-hero.png');
-  mask-image: url('images/paper-cut-hero.png');
-  -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
-  mask-size: 100% 100%;
-  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100% !important;
+  -webkit-mask-size: 100% 100% !important; */
   position: absolute;
   top: 0;
   left: 0;
@@ -1265,6 +1264,26 @@ p:last-child{
   z-index: -1;
   background-size: cover !important;
   background-position: center !important;
+}
+.hero-b-paper-cut-row-background::before {
+  content: '';
+  height: 30px;
+  width: 100%;
+  display: block;
+  background: url('images/hero-paper-cut-shape-top.png') no-repeat center center/100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero-b-paper-cut-row-background::after {
+  content: '';
+  height: 30px;
+  width: 100%;
+  display: block;
+  background: url('images/hero-paper-cut-shape-bottom.png') no-repeat center center/100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .hero-b-paper-cut-row-height .hero-b-paper-cut-row-inner {
   min-height: 515px;
